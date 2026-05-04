@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+venv/
+*.pdf
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build output
+dist/
+
+# Media and Large Files
+*.mp4
+*.mov
+*.avi
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
