@@ -75,13 +75,15 @@ export default function Navbar() {
         </div>
 
         {/* Resume Button */}
-        <a
-          href="/Resume.pdf"
-          download
-          className="hidden md:flex items-center gap-2 bg-brand-primary/10 text-brand-primary border border-brand-primary/20 px-4 py-2 rounded-lg hover:bg-brand-primary hover:text-white transition-all text-sm font-semibold"
+         <a
+         href="/Resume.pdf#toolbar=0"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="hidden md:flex items-center gap-2 bg-brand-primary/10 text-brand-primary border border-brand-primary/20 px-4 py-2 rounded-lg hover:bg-brand-primary hover:text-white transition-all text-sm font-semibold"
         >
-          <Download className="w-4 h-4" /> Resume
-        </a>
+      <Download className="w-4 h-4" /> Resume
+      </a>
+  
 
         {/* Mobile Menu Button */}
         <button
