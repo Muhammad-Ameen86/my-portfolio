@@ -77,7 +77,7 @@ export default function Contact() {
             {/* Right Column - Contact Form */}
             <div>
               <form
-                action="https://formspree.io/f/xyzpqwer"
+                action="https://formspree.io/f/xpqbdpjq"
                 method="POST"
                 className="flex flex-col gap-5"
               >
